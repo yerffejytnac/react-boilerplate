@@ -1,5 +1,9 @@
-config/
-public/
-scripts/
-node_modules/
+config
+public
+scripts
+node_modules
+flow-typed
 /src/registerServiceWorker.js
+
+# tmp
+build
