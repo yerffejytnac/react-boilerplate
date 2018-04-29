@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App /> should match existing snapshot 1`] = `
-<div>
+<styled.div>
   <h1>
     Application
   </h1>
-</div>
+</styled.div>
 `;

@@ -1,3 +1,13 @@
 {
-  "presets": ["flow", "react-app"]
+  "presets": [["env", { "modules": false }], "react-app", "flow"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "displayName": true,
+        "minify": false,
+        "uglifyPure": false
+      }
+    ]
+  ]
 }

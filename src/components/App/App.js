@@ -1,15 +1,12 @@
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
-import './App.css';
+// @flow
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Application</h1>
-      </div>
-    );
-  }
-}
+import React from 'react';
+import { Root } from './styled';
+
+const App = () => (
+  <Root>
+    <h1>Application</h1>
+  </Root>
+);
 
 export default App;
