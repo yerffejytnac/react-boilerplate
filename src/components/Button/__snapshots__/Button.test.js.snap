@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should match existing snapshot 1`] = `
+<styled__Root
+  data-testid="Button"
+/>
+`;

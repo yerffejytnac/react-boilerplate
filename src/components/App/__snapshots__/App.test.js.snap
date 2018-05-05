@@ -5,5 +5,8 @@ exports[`<App /> should match existing snapshot 1`] = `
   <h1>
     Application
   </h1>
+  <Button>
+    Super Awesome Button
+  </Button>
 </styled__Root>
 `;
