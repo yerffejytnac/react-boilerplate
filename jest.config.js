@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverageFrom: ['src/**/*.{js,jsx,mjs}'],
   setupFiles: ['<rootDir>/config/polyfills.js'],
-  setupTestFrameworkScriptFile: '<rootDir>/config/setupTests.js',
+  setupTestFrameworkScriptFile: '<rootDir>/config/jest-setup.js',
   snapshotSerializers: ['enzyme-to-json/serializer'],
   testMatch: [
     '<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}',
