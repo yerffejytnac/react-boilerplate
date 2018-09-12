@@ -1,11 +1,11 @@
 // @flow
 
 /* eslint no-unused-expressions: ["error", { "allowTaggedTemplates": true }] */
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'polished';
 // import "./fonts";
 
-injectGlobal`
+const GlobalStyles = createGlobalStyle`
   ${normalize()}
 
   :root {
@@ -17,3 +17,5 @@ injectGlobal`
     }
   }
 `;
+
+export default GlobalStyles;

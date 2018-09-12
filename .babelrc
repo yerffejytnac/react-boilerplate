@@ -6,7 +6,8 @@
       {
         "displayName": true,
         "minify": false,
-        "uglifyPure": false
+        "uglifyPure": false,
+        "pure": true
       }
     ]
   ]
